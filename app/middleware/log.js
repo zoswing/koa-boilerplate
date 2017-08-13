@@ -1,4 +1,4 @@
-const log_Util = require('../utils/log_util');
+import log_Util from '../utils/log_util';
 export default function logUtil() {
     return async function(ctx, next) {
         //响应开始时间
