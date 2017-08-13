@@ -1,3 +1,6 @@
+/**
+ * 日志工具类，封装、格式化服务端错误、响应以及请求的日志
+ */
 var log4js = require('log4js');
 var fs = require('fs');
 var logConfig = require('../config/log_config');

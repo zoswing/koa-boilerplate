@@ -1,4 +1,4 @@
-import log_Util from '../utils/log_util';
+import Log_Util from '../utils/log_util';
 export default function logUtil() {
     return async function(ctx, next) {
         //响应开始时间
@@ -11,13 +11,13 @@ export default function logUtil() {
 
             ms = new Date() - start;
             //记录响应日志
-            log_Util.logResponse(ctx, ms);
+            Log_Util.logResponse(ctx, ms);
 
         } catch (error) {
 
             ms = new Date() - start;
             //记录异常日志
-            log_Util.logError(ctx, error, ms);
+            Log_Util.logError(ctx, error, ms);
         }
     }
 }
