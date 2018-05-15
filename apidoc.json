@@ -1,0 +1,7 @@
+{
+    "name": "AgreeStuio node-service API",
+    "version": "1.0.0",
+    "description": "基于nodejs实现的服务端接口文档",
+    "title": "AgreeStuio service API",
+    "url": "http://127.0.0.1:8864"
+}

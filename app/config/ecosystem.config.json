@@ -1,0 +1,17 @@
+{
+  "apps": [{
+    "name": "AgreeStudio",
+    "script": "./index.js",
+    "watch": true,
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "ignore_watch": ["logs", "node_modules"],
+    "env_production": {
+      "NODE_ENV": "production"
+    },
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "error_file": "./app/pm2-logs/error.log",
+    "out_file": "./app/pm2-logs/response.log"
+  }]
+}
